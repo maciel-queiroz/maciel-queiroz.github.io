@@ -1,7 +1,7 @@
 ---
 title: "Digital Technologies for Managing Natural Disasters: Bridging the Gap Between Potential and Reality"
 collection: publications
-category: manuscripts
+category: workingpapers
 permalink: /publication/digital-technologies-natural-disasters
 date: 2025-01-01
 venue: "Zenodo"
