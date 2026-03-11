@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-#### Maciel M. Queiroz
+### Dr. Maciel M. Queiroz
 
 **Associate Professor**  
 FGV EAESP – São Paulo School of Business Administration 
@@ -22,7 +22,7 @@ He has been recognized in the Stanford/Scopus-Elsevier **World’s Top 2% Most C
 
 <hr style="border: none; height: 3px; background-color: #cccccc;">
 
-#### Research Interests
+### Research Interests
 
 • Artificial intelligence  
 • Digital transformation  
