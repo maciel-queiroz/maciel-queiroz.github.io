@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## Maciel M. Queiroz
+### Maciel M. Queiroz
 
 Maciel is an Associate Professor at FGV EAESP. 
 He also serves as Ambassador for Latin America (South) of the Operations and Supply Chain Management Division of the Academy of Management (OSCM-AOM) and Associate Editor of the International Journal of Management Reviews (ABS 3, ABDC A).
@@ -19,7 +19,7 @@ He has been recognized in the Stanford/Scopus-Elsevier “World’s Top 2% Most 
 
 ---
 
-## Research Interests
+### Research Interests
 
 • Artificial intelligence 
 • Digital transformation 
