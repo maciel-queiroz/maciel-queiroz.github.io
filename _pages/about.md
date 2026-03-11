@@ -6,10 +6,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## Maciel M. Queiroz
+### Maciel M. Queiroz
 
 **Associate Professor**  
-FGV EAESP – Fundação Getulio Vargas  
+FGV EAESP – São Paulo School of Business Administration 
 São Paulo, Brazil
 
 ---
