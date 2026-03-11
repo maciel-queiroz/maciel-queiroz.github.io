@@ -9,8 +9,8 @@ redirect_from:
 ### Dr. Maciel M. Queiroz
 
 **Associate Professor**  
-<small>FGV EAESP – São Paulo School of Business Administration<small> 
-<small>São Paulo, Brazil<small>
+<small>FGV EAESP – São Paulo School of Business Administration
+São Paulo, Brazil<small> 
 
 <hr style="border: none; height: 3px; background-color: #cccccc;">
 
@@ -25,5 +25,5 @@ redirect_from:
 ### Research Interests
 
 • <small>Artificial intelligence
-• <small>Digital transformation
-• <small>Algorithmic fragility
+• Digital transformation
+• Algorithmic fragility<small>
