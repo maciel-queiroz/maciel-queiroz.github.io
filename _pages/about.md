@@ -24,6 +24,6 @@ redirect_from:
 
 ### Research Interests
 
-• <small>Artificial intelligence<small>  
-• <small>Digital transformation<small>  
-• <small>Algorithmic fragility<small>
+• <small>Artificial intelligence
+• <small>Digital transformation
+• <small>Algorithmic fragility
