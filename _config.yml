@@ -24,7 +24,7 @@ repository               : "maciel-queiroz/maciel-queiroz.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Maciel M. Queiroz"
+  name             : #"Maciel M. Queiroz"
   pronouns         : # example: "she/her"  
   bio              : "Dr. Maciel M. Queiroz is an Associate Professor of Operations and Supply Chain Management at FGV EAESP, Brazil, and serves as the Latin/South America Regional Ambassador for the Academy of Management’s OSCM Division. He is an Associate Editor at the International Journal of Management Reviews and a Senior Associate Editor at the International Journal of Logistics Management."
   location         : "São Paulo, Brazil"
