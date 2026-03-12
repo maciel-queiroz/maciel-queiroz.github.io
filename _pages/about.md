@@ -20,4 +20,6 @@ redirect_from:
 
 • <small>Artificial intelligence
 • Digital transformation
+• Supply chain resilience
+• Ripple effects
 • Algorithmic fragility<small>
