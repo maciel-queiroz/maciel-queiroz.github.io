@@ -13,10 +13,10 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin-bottom: 22px; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="border: 1px solid #e5e7eb; border-radius: 14px; padding: 22px; margin-bottom: 24px; background: #ffffff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
 
     {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
+      <div class="archive__item-teaser" style="margin-bottom: 14px;">
         <img src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
@@ -27,25 +27,25 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline" style="margin-bottom: 10px; line-height: 1.3;">
+    <h2 class="archive__item-title" itemprop="headline" style="margin: 0 0 10px 0; line-height: 1.3; font-size: 1.35em;">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+        <a href="{{ post.link }}" style="text-decoration: none;">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="margin-left: 6px;">
           <i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span>
         </a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none;">{{ title }}</a>
       {% endif %}
     </h2>
 
     {% if post.citation %}
-      <p style="margin: 0 0 10px 0; color: #374151; line-height: 1.6;">
+      <p style="margin: 0 0 12px 0; color: #374151; line-height: 1.65; font-size: 0.98em;">
         {{ post.citation }}
       </p>
     {% endif %}
 
-    <p style="margin: 0 0 12px 0; color: #6b7280; line-height: 1.5;">
-      <span style="display: inline-block; padding: 3px 10px; border-radius: 999px; background: #f3f4f6; font-size: 0.9em; margin-right: 8px;">
+    <div style="margin: 0 0 14px 0; color: #6b7280; line-height: 1.5; font-size: 0.95em;">
+      <span style="display: inline-block; padding: 4px 10px; border-radius: 999px; background: #f3f4f6; font-size: 0.88em; margin-right: 8px; font-weight: 600;">
         {% if post.category == "workingpapers" %}
           Working Paper
         {% elsif post.category == "manuscripts" %}
@@ -65,31 +65,34 @@
       {% if post.date %}
         · {{ post.date | default: "1900-01-01" | date: "%Y" }}
       {% endif %}
-    </p>
+    </div>
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-      <p class="archive__item-excerpt" itemprop="description" style="margin: 0 0 12px 0; color: #4b5563;">
+      <p class="archive__item-excerpt" itemprop="description" style="margin: 0 0 14px 0; color: #4b5563; line-height: 1.6;">
         {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
       </p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-      <p class="archive__item-excerpt" itemprop="description" style="margin: 0 0 12px 0; color: #4b5563;">
+      <p class="archive__item-excerpt" itemprop="description" style="margin: 0 0 14px 0; color: #4b5563; line-height: 1.6;">
         {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
         <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
       </p>
     {% endif %}
 
-    <p style="margin: 0; line-height: 1.8;">
+    <div style="margin-top: 6px;">
       {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" style="margin-right: 14px;">📄 Paper</a>
+        <a href="{{ post.paperurl }}" style="display: inline-block; padding: 7px 12px; margin: 0 8px 8px 0; border-radius: 8px; border: 1px solid #d1d5db; text-decoration: none; font-size: 0.95em; font-weight: 500;">📄 Paper</a>
       {% endif %}
+
       {% if post.slidesurl %}
-        <a href="{{ post.slidesurl }}" style="margin-right: 14px;">🎞 Slides</a>
+        <a href="{{ post.slidesurl }}" style="display: inline-block; padding: 7px 12px; margin: 0 8px 8px 0; border-radius: 8px; border: 1px solid #d1d5db; text-decoration: none; font-size: 0.95em; font-weight: 500;">🎞 Slides</a>
       {% endif %}
+
       {% if post.bibtexurl %}
-        <a href="{{ post.bibtexurl }}" style="margin-right: 14px;">📚 BibTeX</a>
+        <a href="{{ post.bibtexurl }}" style="display: inline-block; padding: 7px 12px; margin: 0 8px 8px 0; border-radius: 8px; border: 1px solid #d1d5db; text-decoration: none; font-size: 0.95em; font-weight: 500;">📚 BibTeX</a>
       {% endif %}
-      <a href="{{ base_path }}{{ post.url }}">Details</a>
-    </p>
+
+      <a href="{{ base_path }}{{ post.url }}" style="display: inline-block; padding: 7px 12px; margin: 0 8px 8px 0; border-radius: 8px; border: 1px solid #d1d5db; text-decoration: none; font-size: 0.95em; font-weight: 500;">Details</a>
+    </div>
 
   </article>
 </div>
