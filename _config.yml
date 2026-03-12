@@ -26,9 +26,9 @@ author:
   avatar           : "profile.jpg"
   name             : #"Maciel M. Queiroz"
   pronouns         : # example: "she/her"  
-  bio              : "Associate Professor<br>FGV EAESP"
-  location         : "São Paulo, Brazil"
+  bio              : "Associate Professor"
   employer         : "FGV EAESP"
+  location         : "São Paulo, Brazil"
   uri              : # URL
   email            : "maciel.queiroz@fgv.br" 
 
